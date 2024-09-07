@@ -1,5 +1,5 @@
 ﻿
-using Employee.Domain.Entities;
+using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Infrastructure.Persistence;
 using EntityFramework;
 using System;

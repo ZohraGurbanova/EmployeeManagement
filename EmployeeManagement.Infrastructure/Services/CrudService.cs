@@ -1,5 +1,5 @@
 ﻿
-using Employee.Domain.Entities;
+using EmployeeManagement.Domain.Entities;
 using EntityFramework;
 using System;
 using System.Collections.Generic;

@@ -24,7 +24,7 @@ namespace EmployeeManagement.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Employee.Domain.Entities.DepartmentEntity", b =>
+            modelBuilder.Entity("EmployeeManagement.Domain.Entities.DepartmentEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -46,7 +46,7 @@ namespace EmployeeManagement.Infrastructure.Migrations
                     b.ToTable("Departments");
                 });
 
-            modelBuilder.Entity("Employee.Domain.Entities.EmployeeEntity", b =>
+            modelBuilder.Entity("EmployeeManagement.Domain.Entities.EmployeeEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -81,9 +81,9 @@ namespace EmployeeManagement.Infrastructure.Migrations
                     b.ToTable("Employees");
                 });
 
-            modelBuilder.Entity("Employee.Domain.Entities.EmployeeEntity", b =>
+            modelBuilder.Entity("EmployeeManagement.Domain.Entities.EmployeeEntity", b =>
                 {
-                    b.HasOne("Employee.Domain.Entities.DepartmentEntity", "Department")
+                    b.HasOne("EmployeeManagement.Domain.Entities.DepartmentEntity", "Department")
                         .WithMany("Employees")
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -92,7 +92,7 @@ namespace EmployeeManagement.Infrastructure.Migrations
                     b.Navigation("Department");
                 });
 
-            modelBuilder.Entity("Employee.Domain.Entities.DepartmentEntity", b =>
+            modelBuilder.Entity("EmployeeManagement.Domain.Entities.DepartmentEntity", b =>
                 {
                     b.Navigation("Employees");
                 });

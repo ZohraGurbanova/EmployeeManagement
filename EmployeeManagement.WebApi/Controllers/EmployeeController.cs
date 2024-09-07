@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Employee.Domain.Dtos;
-using Employee.Domain.Entities;
+using EmployeeManagement.Domain.Dtos;
+using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Domain.Models;
 using EmployeeManagment.Application.Interfaces;
 using Microsoft.AspNetCore.Http;

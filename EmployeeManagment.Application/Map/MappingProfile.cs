@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using Employee.Domain.Dtos;
-using Employee.Domain.Entities;
+using EmployeeManagement.Domain.Dtos;
+using EmployeeManagement.Domain.Entities;
 
 namespace EmployeeManagement.Application.Map
 {

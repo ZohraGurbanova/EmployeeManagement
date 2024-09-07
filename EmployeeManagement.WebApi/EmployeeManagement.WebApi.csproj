@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Employee.Domain\EmployeeManagement.Domain.csproj" />
     <ProjectReference Include="..\EmployeeManagement.Infrastructure\EmployeeManagement.Infrastructure.csproj" />
     <ProjectReference Include="..\EmployeeManagment.Application\EmployeeManagement.Application.csproj" />
   </ItemGroup>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Employee.Domain.Entities
+namespace EmployeeManagement.Domain.Entities
 {
    public interface IEntity
     {

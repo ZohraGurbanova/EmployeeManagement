@@ -1,4 +1,4 @@
-﻿using Employee.Domain.Entities;
+﻿using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System;

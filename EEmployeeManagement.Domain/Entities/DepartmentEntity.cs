@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employee.Domain.Entities
+namespace EmployeeManagement.Domain.Entities
 {
     public class DepartmentEntity : BaseEntity
     {

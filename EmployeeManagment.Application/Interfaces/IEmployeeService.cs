@@ -1,4 +1,4 @@
-﻿using Employee.Domain.Entities;
+﻿using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Domain.Models;
 using System;
 using System.Collections.Generic;

@@ -1,4 +1,4 @@
-﻿using Employee.Domain.Entities;
+﻿using EmployeeManagement.Domain.Entities;
 using EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using EmployeeManagment.Application.Interfaces;
 using EmployeeManagement.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Xml.Linq;
-using Employee.Domain.Dtos;
+using EmployeeManagement.Domain.Dtos;
 using AutoMapper;
 
 namespace Services
