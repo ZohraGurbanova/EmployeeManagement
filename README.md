@@ -22,5 +22,5 @@ Aşağıdakı addımları izləyərək layihəni quraşdıra və işə sala bil�
 ### 1. Layihəni Klonlama
 
 ```bash
-git clone https://github.com/ZohraGurbanova/repository.git
+git clone https://github.com/ZohraGurbanova/EmployeeManagement.git
 cd repository
